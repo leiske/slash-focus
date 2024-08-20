@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Search Bar",
+  "version": "1.0",
+  "description": "Focus on the search bar when '/' is pressed. That's it.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
