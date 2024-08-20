@@ -7,3 +7,7 @@ This finds the search bar on a page and focuses it when you press `/`.
 ### <website> has a keybind for `/` already
 
 You can turn off the extension per site by clicking the icon and hitting unchecking the box.
+
+### install
+
+Enable developer mode in chrome://extensions and load the unpacked extension.
